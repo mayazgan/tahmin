@@ -1,0 +1,14 @@
+body{
+  font-family: calibri;
+  background-image: url('bg.png');
+}
+input{
+  font-family: calibri;
+}
+input[type="text"]:invalid{
+    outline: 2px solid red;
+}
+
+input[type="text"]:valid{
+    outline: 2px solid green;
+}

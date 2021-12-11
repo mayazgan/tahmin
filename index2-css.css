@@ -1,0 +1,16 @@
+body{
+  font-family: calibri;
+  background-image: url('bg.png');
+}
+button{
+  font-family: calibri;
+}
+#myiframe {
+    width: 650px;
+    height: 740px;
+}
+#exampleImage { cursor:zoom-in; }
+#exampleImage:-webkit-full-screen { cursor:zoom-out; }
+#exampleImage:-moz-full-screen { cursor:zoom-out; }
+#exampleImage:-ms-fullscreen { cursor:zoom-out; }
+#exampleImage:fullscreen { cursor:zoom-out; }
